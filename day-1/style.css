@@ -9,10 +9,10 @@ height: 100%;
 width: 100%;
 }
 
-h1{
-    background-color: red;
-}
 
-a{
-    background-color: yellow;
+.red{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    background: conic-gradient(orange, blue, purple, white);
 }
