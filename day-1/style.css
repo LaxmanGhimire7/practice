@@ -1,18 +1,22 @@
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
-html,
-body {
-height: 100%;
-width: 100%;
+@font-face {
+    font-family: Pranil;
+    src: url(./fonts/font2.ttf);
 }
 
 
-.red{
-    background-color: red;
-    height: 300px;
-    width: 300px;
-    background: conic-gradient(orange, blue, purple, white);
+#box{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(228, 80, 17, 0.792);
 }
+
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Pranil;
+    text-align: center;
+    text-transform: lowercase;
+}
+
