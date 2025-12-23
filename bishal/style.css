@@ -1,13 +1,75 @@
 @font-face {
-    font-family: JJJJ;
-    src: url(./fonts/koko.ttf);
+  font-family: JJJJ;
+  src: url(./fonts/koko.ttf);
 }
 
-.red{
-    background-color: rgb(255, 150, 156);
-    height: 500px;
-    width: 500px;
-    /* background: radial-gradient(red,yellow,blue); linear-gradient, conic-gradient */ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.red {
+  /* background-color: rgb(255, 150, 156);
+  height: 300px;
+  width: 300px;
+  margin: 30px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+  /* background: radial-gradient(red,yellow,blue); linear-gradient, conic-gradient */
+  /* background-image: url(); */
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* padding-left: 50px; */
+  /* margin: auto; */
+ /* border-radius: 50%; */
+ height: 200px;
+ width: 200px;
+ background-color: red;
+ /* margin-top: 30px; */
+
+ position: sticky;
+
+}
+
+/* .blue{
+height: 200px;
+width: 200px;
+background-color: rgb(43, 0, 255);
+position: relative;
+
+} */
+
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+button{
+    background-color: lightseagreen;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 10px;
+    /* first ko le top-button lai afftect garxa and 2nd ma vako px le right-left */
+    border-radius: 1px;
+    cursor: pointer;
+    transition: all ease 2s;
+}
+
+button:hover{
+ background-color: rgba(173, 216, 230, 0.947);
+}
+
+button:active{
+    scale: 0.95;
 }
 
 /* h3{
