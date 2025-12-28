@@ -1,16 +1,19 @@
 
-.parent {
-  width: 300px;
-  height: 300px;
-  background: lightgray;
-  position: relative;
+.red{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin-left: 20px;
+  margin-top: 30px;
+  /* display: flex;
+  flex-direction: column; */
+  /* flex-shrink: 0; */
 }
 
-.child {
-  width: 100px;
-  height: 100px;
-  background: coral;
-  position: absolute;
-  top: 20px;
-  right: 20px;
+
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
 }
