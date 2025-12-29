@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+ 
+}
+
+.main{
+    height: 100%;
+   background-color: black;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 100px;
+    left: 30%;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+} 
+
+.jii{
+    margin-top: 30px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
