@@ -36,7 +36,10 @@ html,body{
 .first{
   display: flex;
   gap: 20px;
+  
 }
+
+
 
 .second-child{
 display: flex;
