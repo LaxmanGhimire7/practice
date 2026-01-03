@@ -112,6 +112,12 @@
 
 // console.log(user?"hii":"404 back res");
 
+if (condition) {
+    
+} else {
+    
+}
+
 
 
 
